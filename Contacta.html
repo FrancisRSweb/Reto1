@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
+        <title>Formulario</title>
+        <link href="styledat.css" style="text/css" rel="stylesheet">
+
+        
+
+        <body>
+
+            <h1>FRANCISCO RUIZ WEB</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Indice</a></li>
+                        <li><a href="index2.html"> Datos</a></li>
+                       <li> <a href="fotos.html"> Fotos </a></li>
+                </ul>
+            </nav>
+
+            <br><br>
+
+            <form action="/signup" method="POST">
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="fname">
+                <br><br>
+                <label for="email">
+                    <img src="img/email.png" alt="Foto de email" width="32" height="32" style="vertical-align: middle;">
+                    Email</label>
+                <input type="email" id="email" name="email" placeholder="Antoñete@hotmail.com">
+                <br><br>
+                <textarea name="message" rows="10" cols="50"> 
+                    Introduce aqui la descripcion
+                </textarea>
+                <p>Selecciona tu nivel</p>
+                <input type="radio" id="Junior" name="nivel" required>
+                <label for="junior">Junior</label>
+                <input type="radio" id="Semisenior" name="nivel" required>
+                <label for="junior">Semisenior</label>
+                <input type="radio" id="Senior" name="nivel" required>
+                <label for="junior">Senior</label>
+                <br><br>
+                <button type="button">
+                    <img src="img/check.png" alt="Foto check" width="32" height="32" style="vertical-align: middle;">
+                    Enviar</button>
+            </form>
+
+            <br><br>
+
+            <footer>
+                Francisco Ruiz Web &copy;
+            </footer>
+
+        </body>
+    </head>
+
+</html>
+
